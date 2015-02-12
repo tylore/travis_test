@@ -7,8 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: KxoeHbmu3K4czIjYv/MdfDloLgU2MzT9VrviiNfEc08if9U+brOHFC4pKAB9e63omxpojB3dNHGwMeKPccOSHpAxPvQJ0UK4+mcgi1eLjRCtHsu3K88tLoesAFDW/cXKxpLkIEOtPS72o3t+lNdBA60cqOAP87fb0y5ULSBLtqQ=
-  app: travis-test-app
+  app: bickle 
   run:
     - "rake db:migrate"
     - restart
-#work damnit
