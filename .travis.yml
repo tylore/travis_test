@@ -11,3 +11,4 @@ deploy:
   run:
     - "rake db:migrate"
     - restart
+#work damnit
